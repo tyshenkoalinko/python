@@ -1,7 +1,7 @@
 import random as rnd
 def ArrayChange():
     mas=[]
-    chars=['a', 'b', 'c']
+    chars=['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'g', 'k', 'l', 'm', 'n', 'o', 'p']
     newmas=[]
     for i in range(10):
         mas.append(rnd.sample(chars, rnd.randint(1, 5)))
